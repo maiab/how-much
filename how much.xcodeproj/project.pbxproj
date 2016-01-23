@@ -14,6 +14,9 @@
 		B533DC7F1C4C4D5200BCF8F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B533DC7D1C4C4D5200BCF8F6 /* LaunchScreen.storyboard */; };
 		B533DC8A1C4C4D5200BCF8F6 /* how_muchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B533DC891C4C4D5200BCF8F6 /* how_muchTests.swift */; };
 		B533DC951C4C4D5200BCF8F6 /* how_muchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B533DC941C4C4D5200BCF8F6 /* how_muchUITests.swift */; };
+		B533DCA31C4C5D8900BCF8F6 /* waiter-with-tray-and-champagne-vector-1015894.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B533DCA21C4C5D8900BCF8F6 /* waiter-with-tray-and-champagne-vector-1015894.jpg */; };
+		B533DCA51C4C5EBF00BCF8F6 /* waiter.png in Resources */ = {isa = PBXBuildFile; fileRef = B533DCA41C4C5EBF00BCF8F6 /* waiter.png */; };
+		B533DCA81C51EABC00BCF8F6 /* Settings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B533DCA61C51EABC00BCF8F6 /* Settings.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		B533DC901C4C4D5200BCF8F6 /* how muchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "how muchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B533DC941C4C4D5200BCF8F6 /* how_muchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = how_muchUITests.swift; sourceTree = "<group>"; };
 		B533DC961C4C4D5200BCF8F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B533DCA21C4C5D8900BCF8F6 /* waiter-with-tray-and-champagne-vector-1015894.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "waiter-with-tray-and-champagne-vector-1015894.jpg"; path = "../../../Downloads/waiter-with-tray-and-champagne-vector-1015894.jpg"; sourceTree = "<group>"; };
+		B533DCA41C4C5EBF00BCF8F6 /* waiter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = waiter.png; path = ../../../Downloads/waiter.png; sourceTree = "<group>"; };
+		B533DCA71C51EABC00BCF8F6 /* Settings.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Settings.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		B533DC681C4C4D5100BCF8F6 = {
 			isa = PBXGroup;
 			children = (
+				B533DCA61C51EABC00BCF8F6 /* Settings.xcdatamodeld */,
 				B533DC731C4C4D5100BCF8F6 /* how much */,
 				B533DC881C4C4D5200BCF8F6 /* how muchTests */,
 				B533DC931C4C4D5200BCF8F6 /* how muchUITests */,
@@ -100,6 +107,8 @@
 				B533DC741C4C4D5100BCF8F6 /* AppDelegate.swift */,
 				B533DC761C4C4D5100BCF8F6 /* ViewController.swift */,
 				B533DC781C4C4D5200BCF8F6 /* Main.storyboard */,
+				B533DCA41C4C5EBF00BCF8F6 /* waiter.png */,
+				B533DCA21C4C5D8900BCF8F6 /* waiter-with-tray-and-champagne-vector-1015894.jpg */,
 				B533DC7B1C4C4D5200BCF8F6 /* Assets.xcassets */,
 				B533DC7D1C4C4D5200BCF8F6 /* LaunchScreen.storyboard */,
 				B533DC801C4C4D5200BCF8F6 /* Info.plist */,
@@ -228,8 +237,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B533DCA31C4C5D8900BCF8F6 /* waiter-with-tray-and-champagne-vector-1015894.jpg in Resources */,
 				B533DC7F1C4C4D5200BCF8F6 /* LaunchScreen.storyboard in Resources */,
 				B533DC7C1C4C4D5200BCF8F6 /* Assets.xcassets in Resources */,
+				B533DCA51C4C5EBF00BCF8F6 /* waiter.png in Resources */,
 				B533DC7A1C4C4D5200BCF8F6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B533DCA81C51EABC00BCF8F6 /* Settings.xcdatamodeld in Sources */,
 				B533DC771C4C4D5100BCF8F6 /* ViewController.swift in Sources */,
 				B533DC751C4C4D5100BCF8F6 /* AppDelegate.swift in Sources */,
 			);
@@ -501,6 +513,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B533DCA61C51EABC00BCF8F6 /* Settings.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B533DCA71C51EABC00BCF8F6 /* Settings.xcdatamodel */,
+			);
+			currentVersion = B533DCA71C51EABC00BCF8F6 /* Settings.xcdatamodel */;
+			path = Settings.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B533DC691C4C4D5100BCF8F6 /* Project object */;
 }
